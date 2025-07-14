@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:'Work Sans', Arial, Helvetica, sans-serif; 
+        
+        /*
+        Medidas Absolutas
+        cm, mm, in(polegada), px, pt, pc
+
+        Medidas Relativas
+        em,ex,rem,vw, vh, %
+        16px geralmente = 1em
+        /* 
+
+        É recomendado usar apenas px e em
+        */
+        font-size:  1em ;
+      /* font-weight: 100-900 ;
+      lighter, normal, bold, bolder
+      weight(peso), width(largura), height(altura)
+        */
+    }
+    h1 {
+        /* shorthand font
+       - font-style -> font-weight -> font-size -> font-family
+
+       font-family: 'Work Sans', sans-serif;
+       font-weight: bolder;
+       font-size: 3em;
+       font-style: italic;
+       text-decoration: underline; <- sublinhado, negrito, itálico
+       */
+       font: italic bolder 3em 'Work Sans', sans-serif;
+    }
+      h2 {
+        font: bold 2em 'Work Sans';
+      } 
+            
+   </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam maiores aliquam eius quasi vero dicta soluta inventore expedita asperiores architecto, rem eum minus in fugiat ut debitis eos doloribus amet!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora magni, architecto eligendi in ratione sunt inventore aut nulla reprehenderit ipsam enim dolorem odit perferendis, aliquam error? Optio eveniet fugit fugiat.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita quasi optio corporis cupiditate officiis quaerat accusantium odit eos vero nemo aliquam aliquid quis et nisi id nulla ducimus, explicabo perferendis?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque, sequi minima atque expedita quod, repellendus dicta maiores veritatis, minus incidunt. Sed distinctio quas natus suscipit blanditiis! Autem, quo asperiores?</p>
+
+    
+</body>
+</html>
