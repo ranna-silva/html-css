@@ -15,17 +15,16 @@ body {
 p {
     margin-bottom: 10px;
     text-align: justify;
-
 }
 
 h1, h2 {
-    margin-bottom: 10px;
-    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
 }
 
 header, section.normal {
     padding: 20px;
-
 }
 
 section.flex-content {
@@ -40,7 +39,6 @@ article.text-media {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
 }
 
 article.media-text {
@@ -60,7 +58,7 @@ article > div.media {
 div.media > img {
     display: block;
     margin: auto;
-    width: 400px;
+    width: 450px;
     padding: 10px;
 }
 
